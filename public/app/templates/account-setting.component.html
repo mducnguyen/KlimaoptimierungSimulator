@@ -1,0 +1,29 @@
+<div class="panel panel-default app-content-panel">
+
+    <div class="panel-heading" role="tab">
+        <h4>Account Setting Component</h4>
+    </div>
+
+    <div *ngIf="currentUser.settings">Hello</div>
+
+    <div class="panel-body">
+        <div>
+            <h3>{{currentUser.name}}</h3>
+            <div class="input-group">
+                <span class="input-group-addon form-icon" id="basic-addon{{currentUser.name}}"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" placeholder="{{currentUser.name}}">
+                <span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.temp.max}}"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" placeholder="{{currentUser.settings.temp.max}}">
+                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.temp.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
+                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.brightness.max}}"><span class="glyphicon glyphicon-user"></span></span>-->
+                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.brightness.max}}">-->
+                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.brightness.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
+                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.brightness.min}}">-->
+                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.humidity.max}}"><span class="glyphicon glyphicon-user"></span></span>-->
+                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.humidity.max}}">-->
+                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.humidity.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
+                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.humidity.min}}">-->
+            </div>
+        </div>
+    </div>
+</div>
