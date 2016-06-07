@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="monitor-panel">
+    <div class="monitor-header">
+        <h5>Brightness</h5>
+    </div>
+    <div class="monitor-body monitor-brightness" style="position: relative">
 
-</body>
-</html>
+
+        <div style="position: relative; top: -10px; margin: 0 auto; font-size: 5em; z-index: 99" class="{{status}}">
+            {{currentBrightness}}<span *ngIf="currentBrightness"> lux</span>
+        </div>
+
+        <span style="font-size: 1.5em;">{{message}}</span>
+    </div>
+</div>

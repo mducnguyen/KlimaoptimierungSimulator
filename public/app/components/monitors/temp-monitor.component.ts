@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {TemperatureOptimizeService, CurrentTemperature} from "../../services/temperature-optimize.service.ts";
-import {AbstractTemperatureService} from "../../services/temperature.service.ts";
+import {TemperatureOptimizeService, CurrentTemperature} from "../../services/temperature-optimize.service";
+import {AbstractTemperatureService} from "../../services/temperature.service";
 /**
  * @author DucNguyenMinh
  * @since 19/05/16

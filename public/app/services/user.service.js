@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var Observable_1 = require("rxjs/Observable");
 var user_1 = require("../models/user");
+var http_1 = require('@angular/http');
 var angular2_jwt_1 = require("angular2-jwt/angular2-jwt");
 require('rxjs/Rx');
 /**
@@ -22,7 +23,8 @@ var UserService = (function () {
         this._http = _http;
     }
     UserService.prototype.getUser = function (uri) {
-        return this._http.get('http://localhost:8080' + uri)
+        // return this._http.get('http://localhost:8080' + uri)
+        return this._http.get('http://klimaoptimierungsservice.eu-gb.mybluemix.net' + uri)
             .map(function (res) {
             if (res.status == 200) {
                 var result = res.json().user;
@@ -42,7 +44,8 @@ var UserService = (function () {
         });
     };
     UserService.prototype.getUsers = function () {
-        return this._http.get('http://localhost:8080/api/accounts')
+        // return this._http.get('http://localhost:8080/api/accounts')
+        return this._http.get('http://klimaoptimierungsservice.eu-gb.mybluemix.net/api/accounts')
             .map(function (res) {
             if (res.status == 200) {
                 var result = res.json().users;
@@ -63,12 +66,38 @@ var UserService = (function () {
         });
     };
     UserService.prototype.getUserSetting = function (user) {
-        var url = 'http://localhost:8080' + user.id + '/settings';
+        // let url = 'http://localhost:8080' + user.id + '/settings';
+        var url = 'http://klimaoptimierungsservice.eu-gb.mybluemix.net' + user.id + '/settings';
         return this._http.get(url)
             .map(function (res) {
             if (res.status == 200) {
                 var settings = res.json().settings;
-                return settings;
+                // return settings;
+                return new user_1.Settings(settings.temp, settings.brightness, settings.humidity);
+            }
+            else {
+                return Observable_1.Observable.throw('Unknown error');
+            }
+        })
+            .catch(function (err) {
+            var errMsg = err.message || 'Unkown error';
+            return Observable_1.Observable.throw(errMsg);
+        });
+    };
+    UserService.prototype.updateUser = function (user) {
+        // let url = 'http://localhost:8080' + user.id + '/settings';
+        var url = 'http://klimaoptimierungsservice.eu-gb.mybluemix.net' + user.id + '/settings';
+        var body = JSON.stringify({
+            settings: user.settings
+        });
+        var options = {
+            headers: new http_1.Headers({ 'Content-Type': 'application/json' })
+        };
+        return this._http.put(url, body, options)
+            .map(function (res) {
+            if (res.status == 200) {
+                var result = res.json();
+                return { success: result.success, message: "Update Success" };
             }
             else {
                 return Observable_1.Observable.throw('Unknown error');

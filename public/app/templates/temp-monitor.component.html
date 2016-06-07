@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="monitor-panel">
+    <div class="monitor-header">
+        <h5>Temperature</h5>
+    </div>
+    <div class="monitor-body monitor-temperature" style="position: relative">
 
-</body>
-</html>
+
+        <div style="position: relative; top: -10px; margin: 0 auto; font-size: 5em; z-index: 99" class="{{status}}">
+            {{currentTemp}}<span *ngIf="currentTemp">&#8451;</span>
+        </div>
+
+        <span style="font-size: 1.5em;">{{message}}</span>
+
+        <div *ngIf="status == 'OVER'" style="position:absolute; right:0; top:123px; display: block; margin-left: 103px; margin-top: -69px;">
+            <img src="/images/{{status}}.gif">
+        </div>
+    </div>
+</div>

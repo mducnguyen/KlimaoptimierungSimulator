@@ -4,6 +4,7 @@ import {Observable} from "rxjs/Observable";
 import {Observer} from "rxjs/Observer";
 import 'rxjs/Rx';
 import {Headers} from '@angular/http';
+import {AbstractTemperatureService} from "./temperature.service";
 /**
  * @author DucNguyenMinh
  * @since 19/05/16
@@ -19,7 +20,7 @@ export interface CurrentTemperature {
 }
 
 @Injectable()
-export class TemperatureOptimizeService {
+export class TemperatureOptimizeService extends AbstractTemperatureService{
 
     currentTemp:number;
 
@@ -46,7 +47,8 @@ export class TemperatureOptimizeService {
 
             setInterval(() => {
 
-                let url = 'http://localhost:8080/api/temperature_optimization';
+                // let url = 'http://localhost:8080/api/temperature_optimization';
+                let url = 'http://klimaoptimierungsservice.eu-gb.mybluemix.net/api/temperature_optimization';
 
                 if (this._temp_buffer.length >= 5) {
 
@@ -95,7 +97,7 @@ export class TemperatureOptimizeService {
             }, 2000);
         });
     }
-
+    
 
     getCurrentTemp():number {
         return this.currentTemp;

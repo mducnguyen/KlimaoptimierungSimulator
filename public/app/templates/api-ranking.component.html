@@ -1,10 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="panel panel-default users-panel" *ngIf="userContext().isLoggedIn() && userContext().isAdmin()">
 
-</body>
-</html>
+    <div class="panel-heading" role="tab">
+        <h4>API Ranking</h4>
+    </div>
+
+    <div class="panel-body">
+
+        <div id="accordion" role="tablist" aria-multiselectable="true">
+            <ul>
+                <li *ngFor="let api of rankingList">
+                    <div class="panel panel-default ">
+
+                        <div class="panel-heading" role="tab">
+                            <a>
+                                {{api.name}}
+                            </a>
+                        </div>
+
+                        <div class="panel-body api-panel">
+                            <ul>
+                                <li>
+                                    Frequency : {{api.frequency}}
+                                </li>
+                                <li>
+                                    Most active account: {{api.mostActiveUser.name}}
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+</div>

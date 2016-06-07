@@ -18,7 +18,7 @@
 }
 
 .login-modal input[type=text] {
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
 
 .login-modal .controls {
@@ -31,17 +31,17 @@
     width: 80px;
 }
 
- /*Admin*/
+/*Admin*/
 
 .sidebar-wrapper {
     position: fixed;
     width: 200px;
     height: 100%;
-    background: #EEEEEE
+    background: #eee;
 }
 
 .sidebar-wrapper ul {
-    list-style : none;
+    list-style: none;
     padding: 0;
 }
 
@@ -60,10 +60,12 @@
 .page-content-wrapper {
     width: 100%;
     height: 100%;
-     /*position: absolute;*/
-     /*margin-right: -250px;*/
+    /*position: absolute;*/
+    /*margin-right: -250px;*/
     padding-left: 200px;
+    padding-right: 300px;
 }
+
 .selected {
     background-color: #CFD8DC;
     color: white;
@@ -79,14 +81,14 @@
 .users li {
     cursor: pointer;
     position: relative;
-    left:0;
+    left: 0;
     background-color: #EEE;
     margin: .5em;
     padding: .3em;
     height: 1.6em;
 }
 
-.users li.selected:hover{
+.users li.selected:hover {
     background-color: #BBD8DC;
     color: white;
 }
@@ -96,11 +98,13 @@
     background-color: #DDD;
     left: .1em;
 }
+
 .users .text {
     position: relative;
     top: -3px;
 }
-.users .badge{
+
+.users .badge {
     display: inline-block;
     font-size: small;
     color: white;
@@ -118,14 +122,15 @@
 .form-icon {
 }
 
-.app-content-panel{
+.app-content-panel {
     margin: 10px;
 }
 
 .users-panel ul {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
+
 .users-panel .input-group {
     max-width: 400px;
     margin-top: 5px;
@@ -140,6 +145,174 @@
     text-decoration: none;
 }
 
-.panel-heading:hover{
+.panel-heading:hover {
     background: #BDBDBD;
+}
+
+.settings-form-icon {
+    width: 60px;
+}
+
+.controller-bar-wrapper {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #eee;
+    right: 0;
+}
+
+.controllers-component {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.controllers-component input[type=text] {
+    text-align: center;
+}
+
+.controllers-component h4 {
+    margin-top: 5px;
+}
+
+.controllers-component .control {
+    margin-bottom: 20px;
+}
+
+.controllers-component button:focus, .controllers-component button:active, .controllers-component button:target {
+    outline: none;
+}
+
+
+.simulator-component {
+    padding: 0 5px;
+}
+.simulator-component .tile {
+    height: 300px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.settings-input {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.settings-buttons {
+    padding-top: 20px;
+}
+
+.settings-buttons button {
+    width: 80px;
+}
+
+h4 {
+    color: #777;
+}
+
+.monitor-panel {
+    text-align: center;
+    background: #ffffff;
+    padding: 0px;
+}
+
+
+
+.monitor-header {
+    background: #f4f4f4;
+    padding: 3px;
+    margin-bottom: 15px;
+    color: #c6c6c6;
+}
+
+.monitor-header h5 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.monitor-body * {
+    color: #333;
+}
+
+.monitor-body > span {
+    display: block;
+    margin-top: 65px;
+}
+
+.monitor-temperature > img {
+    display: block;
+    margin-left: 103px;
+    margin-top: -69px;
+}
+
+.monitor-temperature .BELOW, .monitor-temperature .BELOW span {
+    color: #00b3ee;
+}
+
+.monitor-temperature .OK, .monitor-temperature .OK span {
+    color:  limegreen;
+}
+
+.monitor-temperature .OVER , .monitor-temperature .OVER span {
+    color: red;
+}
+
+.monitor-brightness .BELOW, .monitor-brightness .BELOW span {
+    color: #5e7286;
+}
+
+.monitor-brightness .OK, .monitor-brightness .OK span {
+    color:  limegreen;
+}
+
+.monitor-brightness .OVER , .monitor-brightness .OVER span {
+    color: #fbff9c;
+}
+
+
+.monitor-humidity .BELOW, .monitor-humidity .BELOW span {
+    color: #aaaaaa;
+}
+
+.monitor-humidity .OK, .monitor-humidity .OK span {
+    color:  limegreen;
+}
+
+.monitor-humidity .OVER , .monitor-humidity .OVER span {
+    color: #ed9aff;
+}
+.monitor-board {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.api-panel {
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.api-users li {
+    cursor: pointer;
+    position: relative;
+    left:0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em;
+    line-height: 40px;
+    border-radius: 4px;
+}
+
+.api-users li.selected:hover{
+    background-color: #BBD8DC;
+    color: white;
+}
+
+.api-users li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+}
+
+.api-users .username {
+    padding-left: 10px;
 }

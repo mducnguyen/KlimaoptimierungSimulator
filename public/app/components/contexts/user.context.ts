@@ -19,11 +19,11 @@ export class UserContext {
         return this._currentUser;
     }
 
-    isLoggedIn(): Boolean {
+    isLoggedIn(): boolean {
         return this._currentUser != null;
     }
 
-    isAdmin(): Boolean {
+    isAdmin(): boolean {
         if (this._currentUser) {
             return this._currentUser.admin;
         } else {

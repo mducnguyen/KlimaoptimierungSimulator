@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {BrightnessOptimizeService, CurrentBrightness} from "../../services/brightness-optimize.service.ts";
-import {AbstractBrightnessService} from "../../services/brightness.service.ts";
+import {BrightnessOptimizeService, CurrentBrightness} from "../../services/brightness-optimize.service";
+import {AbstractBrightnessService} from "../../services/brightness.service";
 /**
  * @author DucNguyenMinh
  * @since 19/05/16

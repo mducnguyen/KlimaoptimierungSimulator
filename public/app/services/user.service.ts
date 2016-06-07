@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core'
 import {Observable} from "rxjs/Observable";
 import {User, Settings} from "../models/user";
+import {Headers} from '@angular/http'
 import {AuthHttp} from "angular2-jwt/angular2-jwt";
 import 'rxjs/Rx'
 /**
@@ -16,7 +17,8 @@ export class UserService {
 
     getUser(uri:string):Observable<User> {
 
-        return this._http.get('http://localhost:8080' + uri)
+        // return this._http.get('http://localhost:8080' + uri)
+        return this._http.get('http://klimaoptimierungsservice.eu-gb.mybluemix.net' + uri)
             .map(res => {
                 if (res.status == 200) {
                     let result = res.json().user;
@@ -36,7 +38,8 @@ export class UserService {
     }
 
     getUsers():Observable<User[]> {
-        return this._http.get('http://localhost:8080/api/accounts')
+        // return this._http.get('http://localhost:8080/api/accounts')
+        return this._http.get('http://klimaoptimierungsservice.eu-gb.mybluemix.net/api/accounts')
             .map(res => {
                 if (res.status == 200) {
                     let result = res.json().users;
@@ -57,13 +60,39 @@ export class UserService {
     }
 
     getUserSetting(user:User):Observable<Settings> {
-        var url = 'http://localhost:8080'+user.id+'/settings';
+        // let url = 'http://localhost:8080' + user.id + '/settings';
+        let url = 'http://klimaoptimierungsservice.eu-gb.mybluemix.net' + user.id + '/settings';
         return this._http.get(url)
             .map(res => {
-                if(res.status == 200){
+                if (res.status == 200) {
                     let settings = res.json().settings;
-                    return settings;
-                    // return new Settings(settings.temperature,settings.brightness,settings.humidity);
+                    // return settings;
+                    return new Settings(settings.temp, settings.brightness, settings.humidity);
+                } else {
+                    return Observable.throw('Unknown error');
+                }
+            })
+            .catch(err => {
+                let errMsg = err.message || 'Unkown error';
+                return Observable.throw(errMsg);
+            });
+    }
+
+    updateUser(user:User): Observable<any> {
+        // let url = 'http://localhost:8080' + user.id + '/settings';
+        let url = 'http://klimaoptimierungsservice.eu-gb.mybluemix.net' + user.id + '/settings';
+        let body = JSON.stringify ({
+            settings: user.settings
+        });
+        let options = {
+            headers: new Headers({'Content-Type':'application/json'})
+        };
+        return this._http.put(url,body,options)
+            .map(res => {
+                if (res.status == 200) {
+                    let result = res.json();
+                    return {success:result.success, message:"Update Success"};
+
                 } else {
                     return Observable.throw('Unknown error');
                 }

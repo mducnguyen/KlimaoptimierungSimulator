@@ -1,1 +1,55 @@
-<h2>Controller will be place here</h2>
+<div class="controllers-component">
+
+    <div class="control">
+
+        <h4>Temperature</h4>
+        <div class="input-group input-group-lg">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" (click)="addTemperature(-1)" type="button"><span
+                    class="glyphicon glyphicon-minus"></span></button>
+          </span>
+            <input type="text" class="form-control" [(ngModel)]="temperature" disabled>
+
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" (click)="addTemperature(1)" type="button" ><span
+                    class="glyphicon glyphicon-plus"></span></button>
+          </span>
+        </div>
+    </div>
+
+    <div class="control">
+        <h4>Brightness</h4>
+        <div class="input-group input-group-lg">
+
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" (click)="addBrightness(-1)" type="button"><span
+                    class="glyphicon glyphicon-minus"></span></button>
+          </span>
+
+            <input type="text" class="form-control" [(ngModel)]="brightness" disabled>
+
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" (click)="addBrightness(1)" type="button"><span
+                    class="glyphicon glyphicon-plus"></span></button>
+          </span>
+
+        </div>
+    </div>
+
+    <div class="control">
+        <h4>Humidity</h4>
+        <div class="input-group input-group-lg">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" (click)="addHumidity(-1)" type="button"><span
+                    class="glyphicon glyphicon-minus"></span></button>
+              </span>
+            <input type="text" class="form-control" [(ngModel)]="humidity" disabled>
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" (click)="addHumidity(1)" type="button"><span
+                class="glyphicon glyphicon-plus"></span></button>
+      </span>
+
+        </div>
+    </div>
+</div>
+

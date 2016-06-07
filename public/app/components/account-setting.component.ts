@@ -13,20 +13,39 @@ import {UserService} from "../services/user.service";
 })
 export class AccountSettingComponent implements OnInit {
 
+    confirmMsg: Object;
     currentUser:User;
+    model : User;
 
     ngOnInit() {
-        this.currentUser = this._userContext.getCurrentUser();
-        this._userService.getUserSetting(this.currentUser).subscribe(
-            settings => {
-                this.currentUser.settings = settings;
-            },
 
-            err => {
-            });
     }
 
-    constructor(private _userContext:UserContext, private _userService:UserService) {}
+    constructor(private _userContext:UserContext, private _userService:UserService) {
+        this.currentUser = this._userContext.getCurrentUser();
+        if (this.currentUser) {
+            this._userService.getUserSetting(this.currentUser).subscribe(
+                settings => {
+                    this.currentUser.setSettings(settings);
+                    this.model.setSettings(this.currentUser.settings);
+                },
+                err => {
+                });
+            this.model = new User(this.currentUser.id,this.currentUser.name, this.currentUser.email, this.currentUser.admin);
+            this.model.setSettings(this.currentUser.settings);
+        }
+    }
+
+    userContext():UserContext {
+        return this._userContext;
+    }
+
+    saveAccountSettings() {
+        this._userService.updateUser(this.model).subscribe(
+            alert => { this.confirmMsg = { success: alert.success, message:alert.message}},
+            err => {this.confirmMsg = {success: false, message:"Update Failed"}}
+        );
+    }
 }
 
 

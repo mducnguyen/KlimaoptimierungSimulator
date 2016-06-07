@@ -456,7 +456,7 @@ declare namespace jasmine {
         mostRecent(): CallInfo;
         /** By chaining the spy with calls.first(), will return the context (the this) and arguments for the first call **/
         first(): CallInfo;
-        /** By chaining the spy with calls.reset(), will clears all tracking for a spy **/
+        /** By chaining the spy with calls.reset(), will clears all api-usage for a spy **/
         reset(): void;
     }
 

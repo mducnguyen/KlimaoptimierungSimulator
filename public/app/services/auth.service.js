@@ -27,7 +27,8 @@ var AuthService = (function () {
         this._storage = _storage;
         this._userService = _userService;
         this._userContext = _userContext;
-        this._authEndpoint = "http://localhost:8080/api/authenticate";
+        // this._authEndpoint = "http://localhost:8080/api/authenticate";
+        this._authEndpoint = "http://klimaoptimierungsservice.eu-gb.mybluemix.net/api/authenticate";
         this.checkForCurrentUser();
     }
     AuthService.prototype.login = function (name, password) {

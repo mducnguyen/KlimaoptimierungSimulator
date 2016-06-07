@@ -20,7 +20,8 @@ export class AuthService {
 
 
     constructor(private _http: Http, private _jwtHelper: JwtHelper, private _storage:AbstractStorage, private _userService: UserService,private _userContext: UserContext) {
-        this._authEndpoint = "http://localhost:8080/api/authenticate";
+        // this._authEndpoint = "http://localhost:8080/api/authenticate";
+        this._authEndpoint = "http://klimaoptimierungsservice.eu-gb.mybluemix.net/api/authenticate";
 
         this.checkForCurrentUser();
     }
@@ -87,7 +88,7 @@ export class AuthService {
                     this._userContext.setUser(user)
                 },
                 error => {
-
+                    
                 }
             );
         }

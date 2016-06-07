@@ -9,9 +9,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var temp_monitor_component_1 = require("./temp-monitor.component.ts");
-var brightness_monitor_component_1 = require("./brightness-monitor.component.ts");
-var humidity_monitor_component_1 = require("./humidity-monitor.component.ts");
+var temp_monitor_component_1 = require("./temp-monitor.component");
+var brightness_monitor_component_1 = require("./brightness-monitor.component");
+var humidity_monitor_component_1 = require("./humidity-monitor.component");
 var room_color_monitor_component_1 = require("./room-color-monitor.component");
 /**
  * @author DucNguyenMinh

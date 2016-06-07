@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="monitor-panel">
+    <div class="monitor-header">
+        <h5>Humidity</h5>
+    </div>
 
-</body>
-</html>
+    <div class="monitor-body monitor-humidity" style="position: relative">
+
+
+        <div style="position: relative; top: -10px; margin: 0 auto; font-size: 5em; z-index: 99" class="{{status}}">
+            {{currentPercentage}}<span *ngIf="currentPercentage">%</span>
+        </div>
+
+        <span style=" position: relative; font-size: 1.5em;">{{message}}</span>
+    </div>
+</div>

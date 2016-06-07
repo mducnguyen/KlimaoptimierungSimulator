@@ -1,8 +1,8 @@
 import {Component} from '@angular/core'
-import {TempMonitorComponent} from "./temp-monitor.component.ts";
-import {BrightnessMonitorComponent} from "./brightness-monitor.component.ts";
-import {HumidityMonitorComponent} from "./humidity-monitor.component.ts";
-import {RoomColorMonitorComponent} from "../room-color-monitor.component.ts";
+import {TempMonitorComponent} from "./temp-monitor.component";
+import {BrightnessMonitorComponent} from "./brightness-monitor.component";
+import {HumidityMonitorComponent} from "./humidity-monitor.component";
+import {RoomColorMonitorComponent} from "./room-color-monitor.component";
 /**
  * @author DucNguyenMinh
  * @since 18/05/16

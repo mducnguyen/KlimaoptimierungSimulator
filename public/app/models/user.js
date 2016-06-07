@@ -9,13 +9,17 @@ var User = (function () {
         this.name = name;
         this.email = email;
         this.admin = admin;
+        this.settings = new Settings({ max: 0, min: 0 }, { max: 0, min: 0 }, { max: 0, min: 0 });
     }
+    User.prototype.setSettings = function (settings) {
+        this.settings = settings;
+    };
     return User;
 }());
 exports.User = User;
 var Settings = (function () {
-    function Settings(temperature, brightness, humidity) {
-        this.temperature = temperature;
+    function Settings(temp, brightness, humidity) {
+        this.temp = temp;
         this.brightness = brightness;
         this.humidity = humidity;
     }

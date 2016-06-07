@@ -8,25 +8,29 @@ export class User {
     name:string;
     email: string;
     admin: boolean;
-    settings:any;
+    settings:Settings;
 
     constructor(id:string, name:string, email:string, admin:boolean) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.admin = admin;
+        this.settings = new Settings({max:0,min:0},{max:0,min:0},{max:0,min:0});
     }
 
+    setSettings(settings: Settings){
+        this.settings = settings;
+    }
 }
 
 export class Settings {
-    temperature: any;
-    brightness: any;
-    humidity:any;
+    temp: Object;
+    brightness: Object;
+    humidity:Object;
 
 
-    constructor(temperature:any, brightness:any, humidity:any) {
-        this.temperature = temperature;
+    constructor(temp:Object, brightness:Object, humidity:Object) {
+        this.temp = temp;
         this.brightness = brightness;
         this.humidity = humidity;
     }

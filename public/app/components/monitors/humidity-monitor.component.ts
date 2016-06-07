@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {HumidityOptimizeService, OptimizedHumidity} from "../../services/humidity-optimize.service.ts";
-import {AbstractHumidityServie} from "../../services/humidity.service.ts";
+import {HumidityOptimizeService, OptimizedHumidity} from "../../services/humidity-optimize.service";
+import {AbstractHumidityServie} from "../../services/humidity.service";
 /**
  * @author DucNguyenMinh
  * @since 19/05/16

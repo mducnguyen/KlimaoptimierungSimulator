@@ -10,22 +10,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var user_service_1 = require("../services/user.service");
+var user_context_1 = require("./contexts/user.context");
 /**
  * @author DucNguyenMinh
  * @since 15/05/16
  */
 var UsersComponent = (function () {
-    function UsersComponent(_userService) {
+    function UsersComponent(_userService, _userContext) {
         var _this = this;
         this._userService = _userService;
+        this._userContext = _userContext;
         this._userService.getUsers().subscribe(function (users) { return _this.users = users; }, function (err) { });
     }
+    UsersComponent.prototype.userContext = function () {
+        return this._userContext;
+    };
     UsersComponent = __decorate([
         core_1.Component({
             selector: 'users',
             templateUrl: 'app/templates/users.component.html'
         }), 
-        __metadata('design:paramtypes', [user_service_1.UserService])
+        __metadata('design:paramtypes', [user_service_1.UserService, user_context_1.UserContext])
     ], UsersComponent);
     return UsersComponent;
 }());

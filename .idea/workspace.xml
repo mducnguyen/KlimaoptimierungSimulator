@@ -1,7 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0109a23-218c-4c5f-a2c4-e84c2d931859" name="Default" comment="" />
+    <list default="true" id="f0109a23-218c-4c5f-a2c4-e84c2d931859" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.cfignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/Staticfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/contollers/brightness.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/contollers/humidity.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/contollers/temperature.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/repositories/sensor-data.repository.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/services/brightness.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/services/humidity.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app/services/temperature.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/configs/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/manifest.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/api-usage/api-ranking.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/api-usage/api-usage.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/api-usage/api-usage.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/api-usage/api-user-usage.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/api-usage/users-list.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/controllers.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/brightness-monitor.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/brightness-monitor.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/humidity-monitor.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/humidity-monitor.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/monitor.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/monitor.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/room-color-monitor.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/room-color-monitor.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/temp-monitor.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/monitors/temp-monitor.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/Api.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/api-ranking/api-ranking.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/api-ranking/api-user-usage.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/brightness-optimize-sensor.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/brightness-optimize.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/brightness.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/color-for-temp-service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/humidity-optimize-sensor.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/humidity-optimize.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/humidity.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/temperature-optimize-sensor.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/temperature-optimize.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/temperature.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/api-ranking.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/api-usage.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/api-user-usage.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/brightness-monitor.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/controllers.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/humidity-monitor.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/monitor.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/room-color-monitor.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/temp-monitor.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/users-list.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/routes/apiRoutes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/views/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/routes/users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/views/index.jade" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/KlimarOptimierungsSimulator.iml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/KlimaoptimierungSimulator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/.name" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/libraries/KlimarOptimierungsSimulator_node_modules.xml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/libraries/KlimarOptimierungsSimulator_node_modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/modules.xml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/runConfigurations/bin_www.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/bin/www" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/package.json" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/account-setting.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/contexts/user.context.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/contexts/user.context.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/components/users.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/models/user.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/auth.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.js.map" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/services/user.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/account-setting.component.html" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/account-setting.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/app.component.html" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/home.component.html" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/home.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/users.component.html" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/app/templates/users.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/common.umd.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/common.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/esm/src/location/platform_location.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/esm/src/location/platform_location.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/esm/src/location/platform_location.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/esm/src/location/platform_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/src/location/platform_location.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/src/location/platform_location.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/src/location/platform_location.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/common/src/location/platform_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/core.umd.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/core.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/iterable_differs.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/iterable_differs.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/iterable_differs.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/iterable_differs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/keyvalue_differs.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/keyvalue_differs.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/keyvalue_differs.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/change_detection/differs/keyvalue_differs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/reflection/reflector.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/esm/src/reflection/reflector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/iterable_differs.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/iterable_differs.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/keyvalue_differs.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/keyvalue_differs.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/keyvalue_differs.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/change_detection/differs/keyvalue_differs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/reflection/reflector.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/core/src/reflection/reflector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/directives/router_link.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/directives/router_link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/decorators.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/decorators.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/decorators.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/decorators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/metadata.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/metadata.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/metadata.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/esm/src/metadata/metadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/router.umd.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/router.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/directives/router_link.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/directives/router_link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/decorators.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/decorators.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/decorators.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/decorators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/metadata.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/metadata.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/metadata.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/metadata/metadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/recognize.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/@angular/router/src/recognize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/lib/async.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/lib/hooks.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/lib/hooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/public/js/app.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync-ui/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync/lib/server/static-server.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/browser-sync/lib/server/static-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/chokidar/index.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/chokidar/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/bin/express" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/bin/express" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/http.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/collection.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/index.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/route.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/lib/router/route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/node_modules/connect/lib/middleware/router.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/express/node_modules/connect/lib/middleware/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/minimatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/fstream/lib/file-reader.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/fstream/lib/file-reader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/minimatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/minimatch/browser.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/minimatch/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/minimatch/minimatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/normalize-package-data/test/typo.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/normalize-package-data/test/typo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/socket.io-client/lib/socket.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/socket.io-client/lib/socket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/socket.io-client/socket.io.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/socket.io-client/socket.io.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typescript/lib/typescript.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typescript/lib/typescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typescript/lib/typescriptServices.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typescript/lib/typescriptServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/browser/bluebird.core.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/browser/bluebird.core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/browser/bluebird.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/browser/bluebird.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/release/promise.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/typings/node_modules/bluebird/js/release/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/zone.js/dist/zone.js.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/zone.js/dist/zone.js.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/zone.js/lib/zone.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/node_modules/zone.js/lib/zone.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/typings/browser/ambient/jasmine/index.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/typings/browser/ambient/jasmine/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/typings/main/ambient/jasmine/index.d.ts" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/public/typings/main/ambient/jasmine/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KlimaroptimierungSimulator/routes/index.js" afterPath="$PROJECT_DIR$/../KlimaroptimierungSimulator/routes/index.js" />
+    </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +174,107 @@
     <favorites_list name="untitled3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/app.component.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="controllers.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/controllers.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="humidity-optimize.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/humidity-optimize.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api-ranking.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/api-ranking/api-ranking.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4035">
+              <caret line="278" column="74" selection-start-line="278" selection-start-column="74" selection-end-line="278" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="n#!!doc;n#ApiRankingService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4740">
+              <caret line="316" column="22" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users-list.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/users-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/manifest.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,59 +285,95 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
         <option value="TypeScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../KlimaroptimierungSimulator" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/public/app/services/temperature-optimize-sensor.ts" />
+        <option value="$PROJECT_DIR$/configs/config.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/repository/sensor-data.repository.js" />
+        <option value="$PROJECT_DIR$/app/repositories/sensor-data.repository.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/app/templates/users.component.html" />
-        <option value="$PROJECT_DIR$/public/app/templates/admin.component.html" />
-        <option value="$PROJECT_DIR$/public/app/components/HomeComponent.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/user-setting.component.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/contexts/user.context.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/admin.component.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/home.component.ts" />
-        <option value="$PROJECT_DIR$/public/app/templates/home.component.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/public/app/services/user.service.ts" />
-        <option value="$PROJECT_DIR$/public/app/models/user.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/account-setting.component.ts" />
-        <option value="$PROJECT_DIR$/public/systemjs.config.js" />
-        <option value="$PROJECT_DIR$/public/package.json" />
+        <option value="internal/linkedlist.js" />
+        <option value="$PROJECT_DIR$/public/app/components/temp-monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/temperature.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/temperature-optimize.service.ts" />
+        <option value="$PROJECT_DIR$/app/services/temperature.service.js" />
+        <option value="$PROJECT_DIR$/app/services/humidity.service.js" />
+        <option value="$PROJECT_DIR$/app/contollers/temperature.controller.js" />
+        <option value="$PROJECT_DIR$/app/contollers/humidity.controller.js" />
+        <option value="$PROJECT_DIR$/app/contollers/brightness.controller.js" />
+        <option value="$PROJECT_DIR$/routes/apiRoutes.js" />
+        <option value="$PROJECT_DIR$/app/services/brightness.service.js" />
+        <option value="$PROJECT_DIR$/public/app/services/brightness.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/humidity.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/brightness-optimize-sensor.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/humidity-optimize-sensor.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/humidity-monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/brightness-monitor.component.ts" />
         <option value="$PROJECT_DIR$/public/app/services/auth.service.ts" />
-        <option value="$PROJECT_DIR$/public/app/components/auth.component.ts" />
-        <option value="$PROJECT_DIR$/public/app/templates/account-setting.component.html" />
-        <option value="$PROJECT_DIR$/public/app/components/app.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/user.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/monitors/monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/tracking/tracking.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/templates/tracking.component.html" />
+        <option value="$PROJECT_DIR$/public/app/components/monitors/brightness-monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/monitors/humidity-monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/monitors/temp-monitor.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/api.occurence/api-usage.component.ts" />
         <option value="$PROJECT_DIR$/public/app/templates/app.component.html" />
+        <option value="$PROJECT_DIR$/public/app/models/Api.ts" />
+        <option value="$PROJECT_DIR$/public/app/models/api.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/api-usage/api-ranking.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/templates/api-ranking.component.html" />
+        <option value="$PROJECT_DIR$/public/app/services/api-ranking/api-user-usage.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/app.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/templates/user-lists.component.html" />
+        <option value="$PROJECT_DIR$/public/app/templates/api-user-usage.component.html" />
+        <option value="$PROJECT_DIR$/public/app/templates/api-usage.component.html" />
+        <option value="$PROJECT_DIR$/public/app/components/api-usage/users-list.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/api-usage/api-user-usage.ts" />
+        <option value="$PROJECT_DIR$/public/app/components/api-usage/api-usage.component.ts" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/app/services/api-ranking/api-ranking.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/services/temperature-optimize-sensor.service.ts" />
+        <option value="$PROJECT_DIR$/public/app/templates/users-list.component.html" />
+        <option value="$PROJECT_DIR$/../KlimaoptimierungSimulator/public/index.html" />
+        <option value="$PROJECT_DIR$/../KlimaoptimierungSimulator/manifest.yml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true">
-    <package-json value="$PROJECT_DIR$/package.json" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/../KlimaoptimierungSimulator/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="346" />
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1574" />
-    <option name="height" value="1015" />
+    <option name="width" value="1280" />
+    <option name="height" value="1375" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -106,31 +391,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -140,73 +427,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,15 +459,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -236,21 +471,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KlimarOptimierungsSimulator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="KlimaoptimierungSimulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,14 +489,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="contollers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,20 +503,26 @@
     <property name="javascript.nodejs.core.library.configured.version" value="5.10.1" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/app/components/monitors" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="style&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/stylesheets/style.css" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/app/components/api-usage/users-list.component.ts&#10;user-&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/app/components/api-usage/users-list.component.ts&#10;apir&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/app/templates/api-ranking.component.html&#10;api&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/app/components/api-usage/api-usage.component.ts&#10;moni&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/app/components/monitor.component.ts&#10;stylecss&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/stylesheets/style.css&#10;stri&#9;ACTION&#9;ActivateStructureToolWindow&#10;style&#9;FILE&#9;file:///Users/DucNguyenMinh/WebstormProjects/KlimarOptimierungsSimulator/public/stylesheets/style.css" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/app/components/monitors" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/app" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Unnamed">
+  <component name="RunManager" selected="Node.js.bin/www">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -368,33 +603,44 @@
       <updated>1463428255035</updated>
       <workItem from="1463428256529" duration="1116000" />
       <workItem from="1463435015165" duration="224000" />
-      <workItem from="1463515872806" duration="26858000" />
+      <workItem from="1463515872806" duration="52723000" />
+      <workItem from="1463620305018" duration="3008000" />
+      <workItem from="1463697662722" duration="13054000" />
+      <workItem from="1463952848354" duration="15000" />
+      <workItem from="1463956141530" duration="4734000" />
+      <workItem from="1464168490241" duration="13914000" />
+      <workItem from="1464271899165" duration="437000" />
+      <workItem from="1464272394287" duration="33802000" />
+      <workItem from="1464371328896" duration="64000" />
+      <workItem from="1464526436473" duration="1848000" />
+      <workItem from="1465331882788" duration="1648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28198000" />
+    <option name="totallyTimeSpent" value="126587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="23" width="1574" height="1015" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="23" width="1280" height="1375" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3887114" sideWeight="0.50482756" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012435991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17965229" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35742652" sideWeight="0.4951724" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982257" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21171875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="420" y="123" width="760" height="535" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -413,464 +659,390 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../KlimaoptimierungSimulator/app/services/temperature.service.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/monitors/monitor.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1463428258000" expanded="true" signature="0:328" placeholder="{&quot;name&quot;: &quot;untitled3&quot;...}" />
-            <marker date="1463428258000" expanded="true" signature="79:114" placeholder="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
-            <marker date="1463428258000" expanded="true" signature="134:326" placeholder="{&quot;body-parser&quot;: &quot;~1.13.2&quot;...}" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/api-usage/api-usage.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463428258000" expanded="true" signature="426:543" placeholder="//..." />
-            <marker date="1463428258000" expanded="true" signature="856:928" placeholder="{...}" />
-            <marker date="1463428258000" expanded="true" signature="951:1004" placeholder="//..." />
-            <marker date="1463428258000" expanded="true" signature="1043:1208" placeholder="{...}" />
-            <marker date="1463428258000" expanded="true" signature="1085:1204" placeholder="{...}" />
-            <marker date="1463428258000" expanded="true" signature="1146:1198" placeholder="{...}" />
-            <marker date="1463428258000" expanded="true" signature="1210:1270" placeholder="//..." />
-            <marker date="1463428258000" expanded="true" signature="1309:1415" placeholder="{...}" />
-            <marker date="1463428258000" expanded="true" signature="1366:1411" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463083454000" expanded="true" signature="0:343" placeholder="{...}" />
-            <marker date="1463083454000" expanded="true" signature="23:257" placeholder="{&quot;target&quot;: &quot;es5&quot;...}" />
-            <marker date="1463083454000" expanded="true" signature="272:341" placeholder="[...]" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/public/app/components/api-usage/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/monitors/temp-monitor.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/main.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/typescript/lib/lib.core.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="366">
+          <caret line="1476" column="6" selection-start-line="1476" selection-start-column="6" selection-end-line="1476" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/main.js">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/rxjs/operator/map.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/main.ts">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/typescript/lib/lib.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463085840000" expanded="true" signature="0:51" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463085840000" expanded="false" signature="59:169" placeholder="..." />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="1876" column="4" selection-start-line="1876" selection-start-column="4" selection-end-line="1876" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <marker date="1463589154000" expanded="true" signature="238:245" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/user.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/HomeComponent.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/admin.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
-          <folding>
-            <marker date="1463578378000" expanded="true" signature="13:38" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="54:80" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="121:181" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="213:242" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="267:315" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="347:389" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="420:504" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="526:568" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="595:712" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="745:773" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="797:920" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="931:983" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="992:1078" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1090:1234" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1260:1312" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1330:1397" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1411:1453" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1467:1754" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1767:1770" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1790:1811" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1829:1869" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1896:1942" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="1956:2007" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="2026:2056" placeholder="{...}" />
-            <marker date="1463578378000" expanded="true" signature="2078:2106" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1463577781000" expanded="true" signature="4:67" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/users.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <marker date="1463565537000" expanded="true" signature="44:1812" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="88:122" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="152:1803" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="225:1792" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="242:1776" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="290:1758" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="345:1736" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="457:678" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="568:647" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="799:1708" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="949:1283" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="1054:1147" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="1060:1140" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="1337:1677" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="1443:1540" placeholder="..." />
-            <marker date="1463565537000" expanded="true" signature="1449:1533" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <marker date="1463582875000" expanded="false" signature="7:200" placeholder="..." />
-            <marker date="1463582875000" expanded="true" signature="201:252" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463582875000" expanded="true" signature="292:2636" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="335:342" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="386:1142" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="474:980" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="515:724" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="753:887" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="893:966" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1008:1133" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1178:1941" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1272:1781" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1313:1687" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1460:1633" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1693:1767" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1809:1933" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="1994:2634" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="2118:2474" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="2157:2373" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="2379:2460" placeholder="{...}" />
-            <marker date="1463582875000" expanded="true" signature="2502:2626" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <marker date="1463582888000" expanded="true" signature="0:51" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463582888000" expanded="true" signature="71:347" placeholder="{...}" />
-            <marker date="1463582888000" expanded="true" signature="233:344" placeholder="{...}" />
-            <marker date="1463582888000" expanded="true" signature="371:620" placeholder="{...}" />
-            <marker date="1463582888000" expanded="true" signature="499:618" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/auth.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463090441000" expanded="true" signature="30:831" placeholder="..." />
-            <marker date="1463090441000" expanded="true" signature="61:824" placeholder="..." />
-            <marker date="1463090441000" expanded="true" signature="97:813" placeholder="..." />
-            <marker date="1463090441000" expanded="true" signature="136:206" placeholder="..." />
-            <marker date="1463090441000" expanded="true" signature="243:798" placeholder="..." />
-            <marker date="1463090441000" expanded="true" signature="573:779" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/admin.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/app/services/brightness.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <marker date="1463087977000" expanded="true" signature="31:1034" placeholder="..." />
-            <marker date="1463087977000" expanded="true" signature="38:993" placeholder="..." />
-            <marker date="1463087977000" expanded="true" signature="877:984" placeholder="..." />
-            <marker date="1463087977000" expanded="true" signature="929:970" placeholder="{...}" />
-            <marker date="1463087977000" expanded="true" signature="1001:1025" placeholder="..." />
-          </folding>
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/systemjs.config.js">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/api-ranking/api-ranking.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <marker date="1463585074000" expanded="true" signature="0:48" placeholder="/** Created by DucNguyenMinh on 12/05/16. ...*/" />
-            <marker date="1463585074000" expanded="true" signature="146:309" placeholder="{&quot;app&quot;: 'app'...}" />
-            <marker date="1463585074000" expanded="true" signature="421:577" placeholder="{...}" />
-            <marker date="1463585074000" expanded="true" signature="604:881" placeholder="[...]" />
-            <marker date="1463585074000" expanded="true" signature="928:1007" placeholder="{...}" />
-            <marker date="1463585074000" expanded="true" signature="1028:1080" placeholder="{...}" />
-            <marker date="1463585074000" expanded="true" signature="1118:1168" placeholder="{...}" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/package.json">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/user.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1463084316000" expanded="true" signature="0:1008" placeholder="{&quot;name&quot;: &quot;application-name&quot;...}" />
-            <marker date="1463084316000" expanded="true" signature="67:275" placeholder="{&quot;start&quot;: &quot;tsc &amp;&amp; concurrently \&quot;npm run tsc:w\&quot; \&quot;npm run lite\&quot; &quot;...}" />
-            <marker date="1463084316000" expanded="true" signature="315:865" placeholder="{&quot;@angular/common&quot;: &quot;2.0.0-rc.1&quot;...}" />
-            <marker date="1463084316000" expanded="true" signature="888:1005" placeholder="{&quot;concurrently&quot;: &quot;^2.0.0&quot;...}" />
-          </folding>
+        <state relative-caret-position="-180">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/services/auth.service.ts">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/temperature-optimize.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding>
-            <marker date="1463585841000" expanded="true" signature="7:405" placeholder="..." />
-            <marker date="1463585841000" expanded="true" signature="407:458" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463585841000" expanded="true" signature="499:2706" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="710:825" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="885:1974" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="907:976" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1001:1082" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1197:1799" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1242:1676" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1583:1651" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1704:1728" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1757:1781" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="1841:1965" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2026:2211" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2167:2203" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2249:2306" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2321:2375" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2403:2704" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2479:2698" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2555:2626" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="2653:2673" placeholder="{...}" />
-          </folding>
+        <state relative-caret-position="757">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/auth.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <marker date="1463585841000" expanded="true" signature="0:51" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463585841000" expanded="false" signature="59:289" placeholder="..." />
-            <marker date="1463585841000" expanded="true" signature="302:380" placeholder="{&quot;selector&quot;: 'auth'...}" />
-            <marker date="1463585841000" expanded="true" signature="409:1244" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="570:616" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="630:858" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="721:784" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="807:823" placeholder="{...}" />
-            <marker date="1463585841000" expanded="true" signature="864:1242" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/contexts/user.context.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <marker date="1463574666000" expanded="false" signature="7:153" placeholder="..." />
-            <marker date="1463574666000" expanded="true" signature="154:205" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463574666000" expanded="true" signature="246:665" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="313:354" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="383:424" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="452:501" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="526:663" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="559:614" placeholder="{...}" />
-            <marker date="1463574666000" expanded="true" signature="620:657" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/users.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <marker date="1463331261000" expanded="true" signature="7:138" placeholder="..." />
-            <marker date="1463331261000" expanded="true" signature="139:190" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463331261000" expanded="true" signature="203:283" placeholder="{&quot;selector&quot;: 'users'...}" />
-            <marker date="1463331261000" expanded="true" signature="312:520" placeholder="{...}" />
-            <marker date="1463331261000" expanded="true" signature="384:513" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/account-setting.component.html">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/color-for-temp-service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <marker date="1463586554000" expanded="true" signature="50:2216" placeholder="..." />
-            <marker date="1463586554000" expanded="true" signature="94:148" placeholder="..." />
-            <marker date="1463586554000" expanded="true" signature="229:2209" placeholder="..." />
-            <marker date="1463586554000" expanded="true" signature="243:2198" placeholder="..." />
-            <marker date="1463586554000" expanded="true" signature="323:2183" placeholder="..." />
-          </folding>
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/node_modules/@angular/router/src/router_providers.d.ts">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/temperature.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/contexts/user.context.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/models/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/api-ranking.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/services/api-ranking/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/api-usage/api-ranking.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/models/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/@angular/router/src/metadata/decorators.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/@angular/router/src/metadata/metadata.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/auth.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1462310675000" expanded="true" signature="0:420" placeholder="/** A list of {@link Provider}s. To use the router, you must add this to your application. ...*/" />
-          </folding>
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <marker date="1463576927000" expanded="true" signature="40:91" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463576927000" expanded="true" signature="104:180" placeholder="{&quot;selector&quot;: 'home'...}" />
-            <marker date="1463576927000" expanded="true" signature="209:213" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/account-setting.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <marker date="1463583920000" expanded="true" signature="7:192" placeholder="..." />
-            <marker date="1463583920000" expanded="true" signature="193:244" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463583920000" expanded="true" signature="257:357" placeholder="{&quot;selector&quot;: 'account-setting'...}" />
-            <marker date="1463583920000" expanded="true" signature="414:818" placeholder="{...}" />
-            <marker date="1463583920000" expanded="true" signature="455:728" placeholder="{...}" />
-            <marker date="1463583920000" expanded="true" signature="614:683" placeholder="{...}" />
-            <marker date="1463583920000" expanded="true" signature="705:720" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
-          <folding>
-            <marker date="1463589138000" expanded="true" signature="0:51" placeholder="/** @author DucNguyenMinh ...*/" />
-            <marker date="1463589138000" expanded="true" signature="60:842" placeholder="..." />
-            <marker date="1463589138000" expanded="true" signature="881:1290" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="918:1253" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="963:1238" placeholder="{&quot;headerName&quot;: &quot;x-access-token&quot;...}" />
-            <marker date="1463589138000" expanded="true" signature="1342:1401" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="1416:1676" placeholder="{&quot;selector&quot;: 'app'...}" />
-            <marker date="1463589138000" expanded="true" signature="1686:1902" placeholder="[...]" />
-            <marker date="1463589138000" expanded="true" signature="1930:2307" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="2064:2128" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="2155:2196" placeholder="{...}" />
-            <marker date="1463589138000" expanded="true" signature="2218:2302" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/app.component.html">
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/users.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/node_modules/@angular/router/src/segments.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/api-usage/users-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/api-user-usage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/api-usage/api-user-usage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/api-usage/api-usage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/api-ranking/api-user-usage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/users.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/api-usage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/account-setting.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/components/controllers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/temperature-optimize-sensor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!doc;n#TemperaturSensorService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/brightness.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/humidity-optimize-sensor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#HumiditySensorService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/humidity.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!doc;n#AbstractHumidityServie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/brightness-optimize-sensor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!doc;n#BrightnessSensorService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/brightness-optimize.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/humidity-optimize.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/services/api-ranking/api-ranking.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4035">
+          <caret line="278" column="74" selection-start-line="278" selection-start-column="74" selection-end-line="278" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!doc;n#ApiRankingService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4740">
+          <caret line="316" column="22" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/controllers.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/app/templates/users-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KlimaoptimierungSimulator/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

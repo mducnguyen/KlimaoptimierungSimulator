@@ -1,29 +1,83 @@
-<div class="panel panel-default app-content-panel">
+<div class="panel panel-default app-content-panel" *ngIf="userContext().isLoggedIn()">
 
     <div class="panel-heading" role="tab">
-        <h4>Account Setting Component</h4>
+        <h4>Account Settings</h4>
+    </div>
+    <div *ngIf="confirmMsg">
+        <div class="alert alert-danger" role="alert" *ngIf="!confirmMsg.success">{{confirmMsg.message}}</div>
+        <div class="alert alert-success" role="alert" *ngIf="confirmMsg.success">{{confirmMsg.message}}</div>
     </div>
 
-    <div *ngIf="currentUser.settings">Hello</div>
-
     <div class="panel-body">
-        <div>
-            <h3>{{currentUser.name}}</h3>
+        <h3>Account: {{currentUser.name}}</h3>
+        <div class="settings-input">
+            <label><h4>Temparature:</h4></label>
             <div class="input-group">
-                <span class="input-group-addon form-icon" id="basic-addon{{currentUser.name}}"><span class="glyphicon glyphicon-user"></span></span>
-                <input type="text" class="form-control" placeholder="{{currentUser.name}}">
-                <span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.temp.max}}"><span class="glyphicon glyphicon-user"></span></span>
-                <input type="text" class="form-control" placeholder="{{currentUser.settings.temp.max}}">
-                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.temp.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
-                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.brightness.max}}"><span class="glyphicon glyphicon-user"></span></span>-->
-                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.brightness.max}}">-->
-                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.brightness.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
-                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.brightness.min}}">-->
-                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.humidity.max}}"><span class="glyphicon glyphicon-user"></span></span>-->
-                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.humidity.max}}">-->
-                <!--<span class="input-group-addon form-icon" id="basic-addon{{currentUser.settings.humidity.min}}"><span class="glyphicon glyphicon-user"></span></span>-->
-                <!--<input type="text" class="form-control" placeholder="{{currentUser.settings.humidity.min}}">-->
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.temp.min}}">min</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.temp.min">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
             </div>
+
+            <div class="input-group">
+
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.temp.max}}">max</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.temp.max">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
+            </div>
+
+        </div>
+        <div class="settings-input">
+            <label><h4>Brightness:</h4></label>
+            <div class="input-group">
+
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.brightness.min}}">min</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.brightness.min">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
+            </div>
+
+            <div class="input-group">
+
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.brightness.max}}">max</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.brightness.max">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
+            </div>
+
+        </div>
+        <div class="settings-input">
+            <label><h4>Humidity:</h4></label>
+            <div class="input-group">
+
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.humidity.max}}">min</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.humidity.min">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
+            </div>
+            <div class="input-group">
+
+                <span class="input-group-addon form-icon settings-form-icon"
+                      id="basic-addon{{currentUser.settings.humidity.min}}">max</span>
+                <input type="text"
+                       class="form-control"
+                       [(ngModel)]="model.settings.humidity.max">
+                <!--<span class="input-group-addon form-icon settings-unit-icon">min</span>-->
+            </div>
+        </div>
+        <div class="settings-buttons">
+            <button type="button" class="btn btn-success" (click)="saveAccountSettings()">Save</button>
         </div>
     </div>
 </div>
